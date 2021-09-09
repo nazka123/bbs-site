@@ -1,0 +1,7 @@
+Could not find or load main class org.apache.catalina.startup.Bootstrap
+오류 해결방법
+
+
+Go to Servers Tab > Double Click on your Server > Open Launch Configuration > Classpath(tab) > 
+
+Click on User Entries > Add External Jars > Add Boorstrap.jar and tomcat-juli.jar > Apply > Ok
